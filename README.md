@@ -47,13 +47,13 @@ Keseluruhan proses dibagi menjadi dua *notebook* utama:
 
 1.  **Tahap 1: Semi-Supervised Learning (Notebook 1)**
     
-    [![Open In Colab - Semi-Supervised](https://colab.research.google.com/assets/colab-badge.svg)](#)
+    [![Open In Colab - Semi-Supervised](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15AGhQYVi3cEjXJlC1klRdVYx7z9a-1r7?usp=sharing)
 
     Karena data latih tidak berlabel, kami menggunakan pendekatan *Semi-Supervised Learning* untuk menghasilkan *pseudo-labels*. Proses ini dilakukan secara ketat melalui **7 kali iterasi** secara bertahap untuk memastikan model dapat belajar dan melabeli data mentah dengan tingkat kepercayaan (*confidence*) yang semakin tinggi di setiap iterasinya tanpa *overfitting* pada prediksinya sendiri.
 
 2.  **Tahap 2: Full Parameter Fine-Tuning (Notebook 2)**
 
-    [![Open In Colab - Fine Tuning](https://colab.research.google.com/assets/colab-badge.svg)](#)
+    [![Open In Colab - Fine Tuning](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UpiA2yQMW-bft2onci34IWH_6PPw_QBf?usp=sharing)
 
     Setelah dataset memiliki *pseudo-labels* yang stabil dari tahap pertama, kami melakukan *Full Parameter Fine-Tuning*. Pada tahap ini, seluruh bobot (*weights*) dari model CoAtNet dilatih ulang secara menyeluruh menggunakan dataset yang telah dilabeli untuk mengoptimalkan representasi visual spesifik dari makanan tradisional. Proses evaluasi model juga dilakukan pada tahapan ini.
 
