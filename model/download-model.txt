@@ -1,0 +1,1 @@
+https://huggingface.co/rakan416/CoAtNet-2-traditional-food-classification/resolve/main/CoatNet2-FullFT-Data7.pth?download=true
