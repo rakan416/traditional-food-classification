@@ -57,6 +57,7 @@ Keseluruhan proses dibagi menjadi dua *notebook* utama:
 
     Setelah dataset memiliki *pseudo-labels* yang stabil dari tahap pertama, kami melakukan *Full Parameter Fine-Tuning*. Pada tahap ini, seluruh bobot (*weights*) dari model CoAtNet dilatih ulang secara menyeluruh menggunakan dataset yang telah dilabeli untuk mengoptimalkan representasi visual spesifik dari makanan tradisional. Proses evaluasi model juga dilakukan pada tahapan ini.
 
+Download Model: [![Download Model](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)](https://huggingface.co/rakan416/CoAtNet-2-traditional-food-classification)
 ---
 
 ## Hasil Evaluasi

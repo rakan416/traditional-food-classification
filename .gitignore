@@ -1,2 +1,5 @@
 # Authentication env
 kaggle.json
+
+# Model
+model/*.pth
